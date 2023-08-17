@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+*{
+	margin: 0;
+	padding: 0;
+}
+nav {
+	background-color : #6e072d;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+ul {
+	display: flex;
+	list-style-type: none;
+}
+li  {
+	padding: calc(16px) calc(16px * 1.5);
+	
+}
+li:hover {
+	cursor: pointer;
+}
+li:not(:last-of-type) {
+  border-right: 2px solid white;
+}
