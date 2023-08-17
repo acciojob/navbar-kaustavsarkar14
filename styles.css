@@ -15,11 +15,11 @@ ul {
 }
 li  {
 	padding: calc(16px) calc(16px * 1.5);
-	
-}
-li:hover {
 	cursor: pointer;
+	padding: 1px;
+	margin: 2px;
 }
+
 li:not(:last-of-type) {
   border-right: 2px solid white;
 }
